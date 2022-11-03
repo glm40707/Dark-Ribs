@@ -1,0 +1,77 @@
+/* elements */
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+}
+
+img{
+    width: 100%;
+}
+
+
+.container{
+    width: 375px;
+    border: 1px dotted orange;
+}
+
+.image-container{
+    width: 375px;
+    height: 358px;
+    border: 1px solid rgb(3, 109, 196);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    background-image: url(/static/img/dark-ribs.jpg);
+    /* object-fit: cover; */
+    object-position: bottom 0px right 0px;
+    text-align: center;
+    
+}
+
+.bar-text h1 h2{
+    color: ghostwhite
+}
+
+.bar{
+    width: 181px;
+    height: 7px;
+    background: rgb(255,165,29);
+    background: linear-gradient(90deg, rgba(255,165,29,1) 0%, rgba(255,69,0,1) 35%, rgba(223,78,19,1) 100%);
+}
+
+.bar-text{
+    
+    /* border: 1px solid green; */
+    letter-spacing: 2.2px;
+    color: #F18119;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 9px;
+    font-weight: bold;
+    
+}
+
+.image-container h1{
+    font: normal normal 300 36px/36px Source Sans Pro;
+    color: ghostwhite;
+    /* border: 1px solid green; */
+    padding: .66em;
+    margin-top: 1.66em;
+}
+
+.image-container h2{
+    color: #F18119;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+    /* border: 1px solid green; */
+    margin-top: 1.65em;
+}
+
+#bbq{
+    color: ghostwhite;
+    font-weight: 900;
+}
