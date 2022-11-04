@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
         rel="stylesheet">
     <!-- google fonts -->
+
 </head>
 
 <body>
@@ -44,9 +45,15 @@
             <form action="">
 
                 <div class="inputs">
-                    <input type="text" name="name" id="" placeholder="first name">
-                    <input type="text" name="email" id="" placeholder="email">
-                    <button id="submit-me" type="submit">register</button>
+                    <input type="text" name="name" id="" placeholder="first name" required>
+                    <input type="text" name="email" id="" placeholder="email" required>
+                    <button id="submit-me" type="button" onclick="my_button_click_handler()">register</button>
+                    <script>
+                    function my_button_click_handler()
+                    {
+                    alert('Thank you! You have been registered.');
+                    }
+                    </script>
                 </div>
 
             </form>
