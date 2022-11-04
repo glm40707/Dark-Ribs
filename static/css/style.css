@@ -11,7 +11,6 @@ img {
 
 .container {
   width: 375px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -19,14 +18,13 @@ img {
 .image-container {
   width: 375px;
   height: 358px;
-
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 0px;
   background-image: url(/static/img/dark-ribs.jpg);
-
-  object-position: bottom 0px right 0px;
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
