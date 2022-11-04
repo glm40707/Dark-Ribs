@@ -13,7 +13,7 @@ img{
 
 .container{
     width: 375px;
-    border: 1px dotted orange;
+    /* border: 1px dotted orange; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -21,7 +21,7 @@ img{
 .image-container{
     width: 375px;
     height: 358px;
-    border: 1px solid rgb(3, 109, 196);
+    /* border: 1px solid rgb(3, 109, 196); */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -107,7 +107,7 @@ section{
 
 .section-body{
     /* text-align: left; */
-    padding-top: 1.2em;
+    padding-top: .5em;
     padding-left: 1.2em;
     padding-right: 1.2em;
     padding-bottom: 0px;
@@ -118,7 +118,7 @@ section{
 }
 
 .section-body > p{
-    margin-bottom: .6em;
+    margin-bottom: 0;
 }
 
 .inputs{
@@ -146,6 +146,8 @@ input::placeholder {
     opacity: .5;
     color: #818181;
     font-size: 1.2em;
+    letter-spacing: .09px;
+    font-weight: 300;
 }
 
 #submit-me{
@@ -159,5 +161,59 @@ input::placeholder {
     text-transform: uppercase;
     font-size: .6rem;
     letter-spacing: 2px;
+    margin-top: .5em;
 
+}
+
+/* larger screen */
+@media(min-width: 960px){
+    body{
+        /* background:#FF713B; */
+    }
+    .container{
+        width: 960px;
+        border: 1px solid white;
+        display: flex;
+        height: 100vh;
+    }
+    .image-container{
+        width: 564px;
+        height: 730px;
+        align-items: center;
+        /* justify-content: center; */
+        
+    }
+   .image-container h1{
+       /* border: 1px solid white; */
+       margin-top: 5em;
+       font-size: 3em;
+       padding-left: 1.6em;
+       padding-right: 1.6em;
+       line-height: 1.2em;
+       margin-bottom: 0;
+       padding-bottom: 0;
+    }
+    .image-container h2{
+        /* border: 1px solid white; */
+        margin-top: .5em;
+        font-size: 1.8em;
+     }
+
+     .section-head{
+        margin-top: 13em;
+     }
+
+     .line1{
+        /* border: 1px solid black; */
+        font-size: 1.6em;
+        margin-bottom: .5em;
+        
+     }
+
+     .section-body > p{
+        /* border: 1px solid black; */
+        font-size: 1.1em;
+        line-height: 1.3em;
+        margin-bottom: .5em;
+     }
 }
