@@ -165,6 +165,17 @@ input::placeholder {
 
 }
 
+.disclaimer{
+    text-align: center;
+    font: normal normal normal 10px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* larger screen */
 @media(min-width: 960px){
     body{
